@@ -1,0 +1,400 @@
+@media (max-width: 1200px)
+	.menu
+		.menu_item
+			padding-right: 10px
+		.menu_link
+			font-size: 13px
+	.promo
+		&_header
+			font-size: 50px
+	.reasons
+		&_block
+			align-items: flex-start
+		&_descr
+			width: 312px
+	.mobile
+		&_item
+			width: 310px
+	.require 
+		.documents
+			.require_list 
+					.require_li
+						padding-right: 98px
+	.car
+		max-height: 840px
+		img
+			width: 66%
+		.motivation_text
+			margin-top: 75px
+	.footer
+		&_wrapper
+			flex-wrap: wrap
+		&_wrapper > div 
+			width: 100%
+			display: flex 
+			justify-content: center
+			margin-bottom: 20px
+			&:nth-child(1)
+				width: 100%
+			&:nth-child(3)
+				width: 100%
+				justify-content: center
+		&_links 
+			&_main
+				a
+					font-size: 15px
+@media (max-width: 991px)
+	.menu
+		.menu_item
+			padding-right: 10px
+		.menu_link
+			font-size: 10px
+	.subheader
+		&_logo
+			img
+				width: 90%
+		&_official
+			font-size: 11px
+		&_phone
+			font-size: 18px
+		&_btn
+			width: 100%
+			height: 39px
+			margin-top: 23px
+	.promo
+		&_header
+			font-size: 38px
+		&_subheader
+			font-size: 24px
+	.reasons
+		&_block
+			flex-direction: column
+			align-items: center
+		&_round
+			margin-right: 0
+		&_descr
+			margin-top: 20px
+	.mobile
+		&_item
+			width: 230px
+	.car
+		height: 730px
+		.motivation_text
+			margin-top: 75px
+	.require
+		&_list
+			padding-right: 40px
+	.require .documents .require_list .require_li
+		padding-right: 30px
+	.world
+		.city_link
+			margin-top: 400px
+@media (max-width: 767px)
+	.menu
+		position: fixed
+		justify-content: center
+		align-items: center
+		flex-direction: column
+		top: 0
+		left: -100%
+		width: 35%
+		height: 138vh
+		padding: 20px 15px
+		background-color: rgba(0, 0, 0, .8)
+		transition: 0.6s
+		&_active
+			left: 0
+		&_item
+			padding-right: 0
+			border: none
+			margin: 10px 0
+		&_link
+			font-size: 20px
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 2px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+	.xs-hiden
+		display: none
+	.xs-visible
+		display: block
+	.subheader
+		&_phone
+			display: block
+			margin-top: 18px
+			color: #fff
+			font-size: 14px
+			font-weight: 400
+			text-transform: uppercase
+			text-align: center
+		&_btn
+			display: block
+			margin: 0 auto
+			margin-top: 10px
+			width: 145px
+			height: 36px
+		&_logo
+			margin-left: 15px
+		&_official
+			margin-left: 15px
+	.promo
+		&_header
+			font-size: 34px
+			line-height: 45px
+		&_subheader
+			font-size: 21px
+	.reasons
+		padding-top: 40px
+		.title
+			font-size: 26px
+			margin-top: 30px
+	.mobile
+		padding-top: 40px
+		.title
+			font-size: 26px
+			margin-top: 30px
+		&_item
+			display: block
+			margin: 0 auto
+			margin-bottom: 15px
+	.car
+		padding-bottom: 81px
+		height: 620px
+		.title_white
+			font-size: 26px
+			margin-top: 30px
+		img
+			margin-top: 4px
+	.require
+		.title
+			font-size: 26px
+			margin-top: 30px
+		&_block
+			margin: 25px 0 10px 0
+		&_list
+			padding-right: 32px	
+	.require .documents .require_list .require_li
+		margin-right: 23px
+	.world
+		.title
+			font-size: 26px
+			margin-top: 30px
+		.city_link
+			margin-top: 415px
+@media (max-width: 575px)
+	nav
+		height: 25px
+	header
+		height: 25px
+	.subheader
+		top: 25px
+		height: 60px
+		&_official
+			display: none
+		&_logo
+			margin-top: 15px
+			margin-left: 0
+		&_phone
+			font-size: 12px
+			font-weight: 400
+			text-transform: uppercase
+			margin-left: 45px
+			margin-right: 0
+			margin-top: 9px
+		&_btn
+			margin-top: 2px
+			margin-left: 34px
+			margin-right: 0
+			width: 110px
+			height: 22px
+			font-size: 10px
+	.promo
+		min-height: 400px
+		padding-bottom: 35px
+		padding-top: 90px
+		&_descr
+			display: none
+		&_header
+			font-size: 30px
+			line-height: 35px
+		&_subheader
+			font-size: 17px
+			margin-top: 3px
+		&_btn
+			margin-top: 72px
+			width: 210px
+			height: 50px
+	.menu
+		&_item
+			width: 100%
+			padding: 5px 0
+		&_link
+			display: block
+			font-size: 16px
+		&_active
+			width: 30%
+	.reasons
+		padding: 22px 0 30px 0
+		&_block
+			margin-top: 26px
+		&_round
+			width: 100px
+			height: 100px
+		&_descr
+			width: 100%
+			margin-top: 27px
+		&_subtitle
+			font-size: 16px	
+		&_text
+			font-size: 12px
+		.title
+			font-size: 16px
+			margin-top: 15px
+			line-height: 16px
+	.mobile
+		padding-bottom: 12px
+		.title
+			font-size: 16px
+			margin-top: 15px
+			line-height: 16px
+		&_item
+			display: block
+			margin: 0 auto
+			width: 296px
+			margin-bottom: 30px
+			&_subtitle
+				font-weight: 400
+				font-size: 24px
+				line-height: 31px
+	.car
+		padding: 25px 0 33px 0
+		min-height: 390px
+		background: #000
+		.title_white
+			display: none
+		.subtitle_white
+			display: none
+		.motivation_text
+			margin-top: 20px
+			margin-bottom: 30px
+			color: #fff
+			font-weight: 300
+			font-size: 17px
+			line-height: 24px
+		img
+			margin-top: 30px
+			width: 300px
+			height: 190px
+	.require
+		padding-top: 25px
+		padding-bottom: 30px
+		.title
+			font-size: 16px
+			margin-top: 15px
+			line-height: 16px
+		&_block
+			margin-bottom: 0
+			margin-top: 30px
+			margin-right: 20px
+		&_title
+			font-weight: 400
+			font-size: 16px
+			line-height: 24px
+		&_list
+			padding-right: 40px
+			margin-top: 0
+			margin-bottom: 0
+			li
+				display: block
+				font-weight: 300
+				font-size: 14px
+				line-height: 16px
+				margin-bottom: 2px
+		&_descr
+			font-weight: 300
+			font-size: 14px
+			line-height: 16px
+	.require .documents .require_list .require_li
+		padding-right: 0
+	.require .warning .require_list li
+		padding-right: 0
+	.world
+		height: 390px
+		background: url(../img/bg_world.png) center (center / cover) no-repeat
+		width: 100%
+		padding: 20px 0 0 0
+		.label_white
+			width: 79px
+			height: 20px
+		.title_white
+			margin-top: 16px
+			font-weight: 700
+			font-size: 16px
+			line-height: 16px
+		.subtitle_white
+			margin-top: 11px
+			font-weight: 400
+			font-size: 14px
+			line-height: 21px
+		.city_link
+			padding-bottom: 0
+			margin-top: 200px
+	footer 
+		padding: 25px 0 20px 0
+	.footer 
+		&_divider
+			width: 253px
+			margin: 0 auto
+		&_wrapper
+			padding-top: 22px
+		&_wrapper > div 
+			margin-bottom: 20px
+			&:nth-child(1)
+				order: 2
+			&:nth-child(2)
+				order: 1
+			&:nth-child(3)
+				order: 3
+		&_links 
+			width: 290px 
+			font-size: 12px
+			&_main 
+				padding: 0
+				font-size: 12px
+				a
+					color: #070716
+					font-size: 12px
+					font-weight: 300
+					text-transform: uppercase
+					margin: 0 7px
+			&_sub 
+				flex-wrap: wrap
+				justify-content: center
+				a
+					color: #070716
+					font-size: 10px
+					font-weight: 300
+					text-transform: uppercase
+					margin: 0 7px
+			&_lang 
+				margin-top: 10px
